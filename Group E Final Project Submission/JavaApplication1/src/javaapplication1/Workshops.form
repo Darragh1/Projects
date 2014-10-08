@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Workshops" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Workshops" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Workshops">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="WorkshopLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="Nci" min="-2" pref="183" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Info" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Eworkshops" min="-2" pref="136" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ExamBased" alignment="0" min="-2" pref="144" max="-2" attributes="0"/>
+                                          <Component id="Wworkshops" min="-2" pref="175" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="and" min="-2" pref="76" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Info2" pref="222" max="32767" attributes="0"/>
+                              <Component id="EWorkshopLabel" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+                  <Component id="BackButton" min="-2" pref="154" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Nci" alignment="0" min="-2" pref="149" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="Wworkshops" min="-2" pref="43" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="and" min="-2" pref="25" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="ExamBased" min="-2" pref="34" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Eworkshops" min="-2" pref="42" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="EWorkshopLabel" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="WorkshopLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="Info" pref="212" max="32767" attributes="0"/>
+                      <Component id="Info2" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="BackButton" pref="44" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Nci">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="H:\OOP\OOP Project\JavaApplication1\ncirl.gif"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Wworkshops">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Workshops"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="and">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="and"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ExamBased">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exam Based"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Eworkshops">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Workshops"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="WorkshopLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Workshops "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="EWorkshopLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="18" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exam Based Workshops"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="Info">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;This is where you will be able to&lt;br /&gt;&#xa;attend workshopsthat go through&lt;br /&gt;&#xa; everything you need to know in &lt;br /&gt;&#xa;detail and it goes thorough it step&lt;br /&gt;&#xa; by step.&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;Tuesday       &lt;br /&gt;                     &#xa;12pm - 1pm&#x9;&#x9;&lt;br /&gt;&#xa;Scr1&#x9;&lt;br /&gt;&#x9;&#xa;1pm - 2pm&#x9;&#x9;&lt;br /&gt;&#xa;1.01&#x9;&#x9;&lt;br /&gt;&#xa;4pm - 5pm&#x9;&lt;br /&gt;&#xa;1.06&#x9;&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;Thursday&lt;br /&gt;&#xa;10am- 11am&lt;br /&gt;&#xa;3.02&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;Friday&lt;br /&gt;&#xa;3pm - 4pm&lt;br /&gt;&#xa;Theatre 2&lt;br /&gt;&#xa;10am - 11am&lt;br /&gt;&#xa;3.08&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="Info2">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;The Mathematics Support Service&lt;br /&gt;&#xa;will be running dedicated Examination&lt;br /&gt;&#xa; Revision sessions for the August &lt;br /&gt;&#xa;2013 Repeat Examinations&lt;br /&gt;&#xa;The sessions will concentrate on &lt;br /&gt;&#xa;those typical past examination &lt;br /&gt;&#xa;questions.&lt;br /&gt;&#xa;&lt;br /&gt; These sessions have been &lt;br /&gt;&#xa;really effective and are quite popular&lt;br /&gt;&#xa; with all modules.&lt;br /&gt;&#xa;The sessions will commence the&lt;br /&gt;&#xa; week beginning 11th &lt;br /&gt;&#xa;July and continue up till &lt;br /&gt;&#xa;exams end in August&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;BAHACC1 BAHAHR1 BAHHRD1 BAHBMD1&lt;br /&gt;&#xa;Quantitative Analysis&lt;br /&gt;&#xa;Monday 9am - 11am Theatre 2&lt;br /&gt;&#xa;Tuesday 9am - 11am Theatre 2&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;HCBS1&lt;br /&gt;&#xa;Quantitative Analysis&lt;br /&gt;&#xa;Monday 2pm - 4pm Theatre 2&lt;br /&gt;&#xa;Tuesday 2am - 4am Theatre 2&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;HCBS1&lt;br /&gt;&#xa;Quantitative Analysis&lt;br /&gt;&#xa;Monday 2pm - 4pm Theatre 2&lt;br /&gt;&#xa;Tuesday 2am - 4am Theatre 2&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;HCBS2&lt;br /&gt;&#xa;Qualitative and Quantitative Methods&lt;br /&gt;&#xa;Wednesday 12am - 2pm Theatre 2 - QQ1&lt;br /&gt;&#xa;Wednesday 3pm - 5pm Theatre 2 - QQ2&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;BAHACC2 BAHHRD2&lt;br /&gt;&#xa;Research Methods II&lt;br /&gt;&#xa;Thursday 9am - 11am Theatre 2&lt;br /&gt;&#xa;Friday 9am - 11am Theatre 2&lt;br /&gt;&#xa;&lt;br /&gt;&#xa;BSHC1 BSHBIS1 HCC1&lt;br /&gt;&#xa;Introduction to Mathematics for Computing&lt;br /&gt;&#xa;Thursday 2pm - 4pm Theatre 2&lt;br /&gt;&#xa;Thursday 5.30pm - 7.30pm Theatre 2&lt;br /&gt;&#xa;Friday 2pm - 4pm Theatre 2&lt;br /&gt;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="BackButton">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="66" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Back"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BackButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
